@@ -1,0 +1,7 @@
+PASS: Lexicon tests
+PASS: Lexicon feature extraction
+PASS: Negation handling
+PASS: M0, M1 and M2 feature extraction
+PASS: SO-CAL sentiment tests
+
+All component tests passed!

@@ -1,0 +1,37 @@
+=== Loading Dataset Splits from processed_data/ ===
+Loaded Train: 1600, Validation: 200, Test: 200
+
+=== Preparing Features for M0 ===
+  [M0] extracted features for 400/1600 reviews
+  [M0] extracted features for 800/1600 reviews
+  [M0] extracted features for 1200/1600 reviews
+  [M0] extracted features for 1600/1600 reviews
+  [M0] extracted features for 200/200 reviews
+  [M0] extracted features for 200/200 reviews
+
+=== Preparing Features for M1 ===
+  [M1] extracted features for 400/1600 reviews
+  [M1] extracted features for 800/1600 reviews
+  [M1] extracted features for 1200/1600 reviews
+  [M1] extracted features for 1600/1600 reviews
+  [M1] extracted features for 200/200 reviews
+  [M1] extracted features for 200/200 reviews
+
+=== Preparing Features for M2 ===
+  [M2] extracted features for 400/1600 reviews
+  [M2] extracted features for 800/1600 reviews
+  [M2] extracted features for 1200/1600 reviews
+  [M2] extracted features for 1600/1600 reviews
+  [M2] extracted features for 200/200 reviews
+  [M2] extracted features for 200/200 reviews
+
+=== Evaluating Rule-Based SO-CAL Scorer ===
+
+=== Mid-Submission Evaluation Results (M0, M1, M2, and SO-CAL) ===
+Logistic Regression  | M0             | Val Acc: 0.9000 | Test Acc: 0.8800 | F1: 0.8776
+Naive Bayes          | M0             | Val Acc: 0.8150 | Test Acc: 0.8600 | F1: 0.8627
+Logistic Regression  | M1             | Val Acc: 0.9050 | Test Acc: 0.8700 | F1: 0.8673
+Naive Bayes          | M1             | Val Acc: 0.8100 | Test Acc: 0.8750 | F1: 0.8744
+Logistic Regression  | M2             | Val Acc: 0.9050 | Test Acc: 0.8700 | F1: 0.8673
+Naive Bayes          | M2             | Val Acc: 0.8150 | Test Acc: 0.8700 | F1: 0.8673
+SO-CAL               | Lexicon-based  | Val Acc: 0.7200 | Test Acc: 0.6550 | F1: 0.6849
